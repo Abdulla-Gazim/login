@@ -1,0 +1,119 @@
+*{
+	padding: 0;
+	margin: 0;
+
+
+}
+.all{
+	text-align: center;
+}
+.header{
+	color: red;
+	font-size: 50px; 
+    font-family: 'Allerta Stencil', sans-serif;
+}
+.p1{
+	color: red;
+	font-size: 25px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+
+.p2{
+    color: red;
+	font-size: 25px;
+	margin-bottom: 15px;
+    font-family: 'Almarai', sans-serif;
+	
+}
+label{
+	    font-family: 'Almarai', sans-serif;
+
+}
+
+#username{
+	width: 450px;
+	height: 35px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom:  40px ;
+	background: #f2bbbb;
+}
+#username:hover{
+	border: red 1px solid;
+}
+
+
+#password{
+	width: 450px;
+	height: 35px;
+	border-radius: 10px;
+    margin-top: 10px;
+	margin-bottom: 30px;
+    background: #f2bbbb;
+	
+}
+
+#password:hover{
+	border: red 1px solid;
+
+}
+.butn{
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	background: white;
+   font-family: 'Almarai', sans-serif;
+
+
+}
+.butn:hover{
+	background: #f46f6f;
+}
+
+.p3{
+	font-family: 'Almarai', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+}
+.p4{
+   font-family: 'Almarai', sans-serif;
+
+}
+a{
+	color: red;
+	text-decoration: none;
+
+}
+@media screen and (max-width: 480px) {
+.header {
+  font-size: 30px;
+  }
+.p1{
+	font-size: 16px;
+}
+.p2{
+	font-size: 16px;
+}
+#username{
+	width: 280px;
+}
+#password{
+	width: 280px;
+}
+.p3{
+	font-size: 12px;
+}
+.p4{
+	font-size: 12px;
+}
+}
+
+
+
+
+
+
+
+
